@@ -59,6 +59,7 @@ class ComponentTabContent extends HTMLElement{
             '#tab6',
             '#tab7',
             '#tab8',
+            '#tab9',
         ]
 
         //hide all tab
