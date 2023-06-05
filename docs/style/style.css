@@ -1,0 +1,28 @@
+.tab-content-wrapper{
+    margin:2rem;
+    padding:2rem;
+    border:1px solid lightgrey;
+    height:70vh;
+    border-radius:1rem;
+    overflow-y: scroll;
+}
+
+.btn-wrapper{
+    margin-bottom:5rem;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    img {
+        width: 100vw !important;
+        /* width: 100% !important; */
+        
+        max-width: none !important;
+       
+    }
+}
